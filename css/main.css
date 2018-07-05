@@ -1,0 +1,170 @@
+@font-face {
+  font-family: "Wisdom Script";
+  src: url("fonts/wisdom-script.otf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/***** BASE STYLES *****/
+
+body {
+  font-family: "Montserrat", sans-serif;
+  color: #000000;
+}
+/***** GRIDS *****/
+
+#header,
+#welcome,
+#store-info {
+  height: 200px;
+}
+
+.full-width {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.half-width {
+  width: 600px;
+  height: 130px;
+  float: left;
+}
+
+.third-width {
+  width: 400px;
+  height: 212px;
+  float: left;
+}
+
+/***** HEADER *****/
+
+header h1 {
+  font-size: 30px;
+  padding: 45px 0;
+  text-transform: uppercase;
+}
+
+h1 span {
+  color: #77a466;
+}
+
+img {
+  border-top: 3px solid #77a466;
+  border-bottom: 3px solid #77a466;
+}
+
+nav {
+  float: right;
+  padding: 60px 0;
+}
+
+nav ul {
+  word-spacing: 21px;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+nav ul li a {
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: bold;
+  color: #77a466;
+}
+
+/***** WELCOME *****/
+
+#welcome .full-width {
+  padding: 30px 0;
+}
+
+#welcome h2 {
+  /*font-weight: bold; */
+  color: #77a466;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+#welcome p {
+  font-size: 16px;
+  line-height: 25px;
+}
+
+/***** STORE INFO *****/
+
+#reviews {
+  border-left: 1px dotted #dedbdc;
+  border-right: 1px dotted #dedbdc;
+}
+
+#store-info h3 {
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+#store-info .third-width {
+  border-bottom: 1px dotted #dedbdc;
+  border-top: 1px dotted #dedbdc;
+}
+
+#store-info p,
+li {
+  font-size: 16px;
+}
+
+/***** SPECIALS *****/
+
+#specials ul {
+  line-height: 37px;
+  list-style: none;
+  padding-left: 0;
+}
+
+#specials a {
+  color: #77a466;
+  line-height: 25px;
+  text-decoration: none;
+}
+
+/***** REVIEWS *****/
+
+#reviews {
+  margin: 0px;
+  padding: 2px 30px 28px;
+}
+
+#reviews p {
+  line-height: 21px;
+}
+
+/***** CONTACT *****/
+
+#contact {
+  margin: 0px;
+  padding: 2px 30px 28px;
+}
+
+#contact p {
+  line-height: 24px;
+}
+
+/***** FOOTER *****/
+
+footer {
+  height: 85px;
+  margin: 0 auto;
+  padding: 30px 0;
+  text-align: center;
+}
+
+footer p {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+footer span {
+  color: #77a466;
+  font-family: "Wisdom Script";
+}
